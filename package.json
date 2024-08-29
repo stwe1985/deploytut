@@ -1,0 +1,31 @@
+{
+  "name": "npm-experiment",
+  "type": "module",
+  "private": "true",
+  "version": "1.0.0",
+  "description": "npm tutorial by MDN",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "format": "prettier --write ."
+  },
+  "author": "Stephan Wende",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.9.1",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "globals": "^15.9.0",
+    "prettier": "^3.3.3",
+    "vite": "^5.4.2"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.52.2",
+    "plotly.js-dist-min": "^2.34.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
